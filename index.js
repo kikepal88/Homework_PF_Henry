@@ -28,3 +28,11 @@ const renzoSanMartin = () => {
   };
 };
 
+function romina(){
+  return ({
+    nombre: 'Romina',
+    edad: 27,
+    nacionalidad: 'Argentina',
+  })
+};
+
