@@ -1,3 +1,3 @@
 function laCajaDePandora(numero){
-  // proximamente escribiremos codigo aqui
-  }
+  return (`Está opción es la de Romina ${numero}`);
+}
