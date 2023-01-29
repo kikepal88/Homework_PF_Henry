@@ -4,6 +4,14 @@ function laCajaDePandora(numero){
     : parseInt(numero).toString(16)
 }
 
+function omar() {
+  return({
+    nombre: "Omar",
+    edad: 34,
+    nacionalidad: "Colombiano",
+  })
+}
+
 function walter() {
   return {
     nombre: 'walter',
