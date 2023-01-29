@@ -19,3 +19,12 @@ function walter() {
     nacionalidad: 'argentino'
   }
 }
+
+const renzoSanMartin = () => {
+  return {
+    name: "Renzo San Martin",
+    age: 29,
+    nationality: "Peruano",
+  };
+};
+
