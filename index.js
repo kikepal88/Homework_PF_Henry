@@ -36,4 +36,12 @@ function romina(){
   })
 };
 
+function daiana() {
+  return {
+    nombre: "Daiana",
+    edad: 34,
+    nacionalidad: "Argentina",
+  };
+}
+
 // Hola!!
