@@ -1,23 +1,23 @@
-function laCajaDePandora(numero){
+function laCajaDePandora(numero) {
   return numero % 2 == 0
     ? parseInt(numero).toString(2)
-    : parseInt(numero).toString(16)
+    : parseInt(numero).toString(16);
 }
 
 function omar() {
-  return({
+  return {
     nombre: "Omar",
     edad: 34,
     nacionalidad: "Colombiano",
-  })
+  };
 }
 
 function walter() {
   return {
-    nombre: 'walter',
+    nombre: "walter",
     edad: 44,
-    nacionalidad: 'argentino'
-  }
+    nacionalidad: "argentino",
+  };
 }
 
 const renzoSanMartin = () => {
@@ -28,12 +28,20 @@ const renzoSanMartin = () => {
   };
 };
 
-function romina(){
-  return ({
-    nombre: 'Romina',
+function romina() {
+  return {
+    nombre: "Romina",
     edad: 27,
-    nacionalidad: 'Argentina',
-  })
-};
+    nacionalidad: "Argentina",
+  };
+}
+
+function daiana() {
+  return {
+    nombre: "Daiana",
+    edad: 34,
+    nacionalidad: "Argentina",
+  };
+}
 
 // Hola!!
